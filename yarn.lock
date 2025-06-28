@@ -1323,12 +1323,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.15.31":
-  version: 22.15.31
-  resolution: "@types/node@npm:22.15.31"
+"@types/node@npm:^22.15.34":
+  version: 22.15.34
+  resolution: "@types/node@npm:22.15.34"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10/999da153fae4687c416421850ebd3c94be75e0dae27ccad192d9a073c7e74baade987d68fc9f082a825c4672bd8a26867636663baad0b9e851baf7b36fb9fdd9
+  checksum: 10/b0fb6674f6c17e3d515531d7f787ccd6676641ba161a6a0e6a93a2d5bc2089fde492eac24b5152a11413bf07a818055a9ec9077d3200b03cf7ea9718470a8417
   languageName: node
   linkType: hard
 
@@ -4903,7 +4903,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "node-cjs@workspace:example/node-cjs"
   dependencies:
-    "@types/node": "npm:^22.15.31"
+    "@types/node": "npm:^22.15.34"
     eslint: "npm:^9.23.0"
     log4js: "npm:^6.9.1"
     megalodon: "npm:*"
@@ -4915,7 +4915,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "node-esm@workspace:example/node-esm"
   dependencies:
-    "@types/node": "npm:^22.15.31"
+    "@types/node": "npm:^22.15.34"
     eslint: "npm:^9.23.0"
     log4js: "npm:^6.9.1"
     megalodon: "npm:*"
