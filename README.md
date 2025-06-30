@@ -155,14 +155,16 @@ You can register applications and/or get access tokens to use this method.
 ```ts
 import generator, { OAuth } from 'megalodon'
 
-const BASE_URL: string = 'https://mastodon.social'
+const BASE_URL: string = 'https://masto.byrd.ws'
 
 let clientId: string
 let clientSecret: string
 
 const client = generator('mastodon', BASE_URL)
 
-client.registerApp('Test App')
+client.registerApp('Test App', {
+  scopes: ['read', 'write', 'follow']
+})
   .then(appData => {
     clientId = appData.client_id
     clientSecret = appData.client_secret
